@@ -1,13 +1,18 @@
 {
     "name": "shorseybot",
-    "description": "",
+    "description": "An implementation of Shoresy Bot for Discord",
     "version": "0.0.1",
     "main": "shorsey.js",
+    "author": [
+        "Damian Ryan",
+        "Darryl Walker"
+    ],
     "scripts": {
         "start": "node ./shorsey.js"
     },
+    "license": "MIT",
     "dependencies": {
-        "discord.js": "^12.5.3"
-    },
-    "devDependencies": {}
+        "discord.js": "^12.5.3",
+        "express": "^4.17.1"
+    }
 }
