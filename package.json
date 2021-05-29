@@ -2,8 +2,9 @@
     "name": "shorseybot",
     "description": "",
     "version": "0.0.1",
+    "main": "shorsey.js",
     "scripts": {
-        "start": "./shorsey.js"
+        "start": "node ./shorsey.js"
     },
     "dependencies": {
         "discord.js": "^12.5.3"
