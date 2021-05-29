@@ -1,9 +1,9 @@
-const mySecret = process.env['TOKEN'];
+const token = process.env['TOKEN'];
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const runServer = require('./server');
 
-client.login(mySecret);
+client.login(token);
 
 runServer();
 
