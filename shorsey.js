@@ -1,7 +1,8 @@
+const mySecret = process.env['TOKEN'];
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.login('ODQ4MjQ4ODM5MTU2NTMxMjgy.YLJ3Sg._BgAeXt4ov_0QfSdp9N7H-AGkHk');
+client.login(process.env.TOKEN);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
