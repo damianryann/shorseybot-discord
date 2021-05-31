@@ -75,6 +75,6 @@ client.on('message', msg => {
   }
 
   if (msg.content === `What's going to happen?`) {
-    msg.channel.send(comingResponse);
+    msg.channel.send(whatHappens);
   }
 });
