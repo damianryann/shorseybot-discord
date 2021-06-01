@@ -6,10 +6,10 @@ server.all('/', (req, res) => {
   res.send('Shorseybot is running!');
 });
 
-function keepAlive() {
+function runServer() {
   server.listen(3000, () => {
     console.log('Server is ready.');
   });
 }
 
-module.exports = keepAlive;
+module.exports = runServer;
